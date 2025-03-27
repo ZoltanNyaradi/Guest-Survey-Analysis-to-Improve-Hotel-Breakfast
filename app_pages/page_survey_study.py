@@ -32,9 +32,9 @@ def page_survey_study_body():
             f"the feathers. "
             f"We found 2 features with medium correlation level, "
             f"**{most_correlated_features.index[0] }** with "
-            f"**{most_correlated_features[0].round(2)}** and "
+            f"**{most_correlated_features.iloc[0].round(2)}** and "
             f"**{most_correlated_features.index[1] }** with "
-            f"**{most_correlated_features[1].round(2)}** respectively."
+            f"**{most_correlated_features.iloc[1].round(2)}** respectively."
             )
     
     st.success(f"We made histogram diagram with these features.\n"
