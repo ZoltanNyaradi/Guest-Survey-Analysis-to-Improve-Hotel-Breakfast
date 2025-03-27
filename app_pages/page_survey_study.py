@@ -5,8 +5,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from src.data_managment import load_survey
-from src.data_managment import encode_breakfast
+from src.data_management import load_survey
+from src.data_management import encode_breakfast
 
 def page_survey_study_body():
     

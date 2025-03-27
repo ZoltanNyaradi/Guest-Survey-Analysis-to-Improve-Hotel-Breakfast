@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import plotly_express as px
-from src.data_managment import load_survey, load_pkl_file
+from src.data_management import load_survey, load_pkl_file
 
 
 def page_ml_cluster_analysis_body():
