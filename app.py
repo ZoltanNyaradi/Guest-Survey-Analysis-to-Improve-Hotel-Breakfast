@@ -14,7 +14,7 @@ app.add_page("Quick Project Summary", page_summary_body)
 app.add_page("Survey Study", page_survey_study_body)
 app.add_page("Breakfast Predictor", page_breakfast_predictor_body)
 app.add_page("Project Hypotesis and Validation", page_project_hypothesis_body)
-app.add_page("ML: Predict Breakfat", page_ml_predict_breakfast_body)
+app.add_page("ML: Predict Breakfast", page_ml_predict_breakfast_body)
 app.add_page("ML: Cluster Analysis", page_ml_cluster_analysis_body)
 
 app.run()
