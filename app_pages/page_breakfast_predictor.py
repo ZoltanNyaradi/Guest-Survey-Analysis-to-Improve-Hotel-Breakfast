@@ -1,16 +1,18 @@
+"""Breakfast Predictor Page."""
+
 import streamlit as st
 import pandas as pd
 from src.data_management import load_survey, load_pkl_file
-from src.machine_learning.predictive_analysis_ui import(
+from src.machine_learning.predictive_analysis_ui import (
     predict_breakfast,
     predict_cluster)
 
 
 def page_breakfast_predictor_body():
-    
+    """Body of breakfast predictor page."""
     st.write("### Breakfast Predictor")
 
-     # load predict breakfast files
+    # load predict breakfast files
     version = 'v1'
     breakfast_pipe_dc_fe = load_pkl_file(
         f'outputs/ml_pipeline/predict_breakfast/{version}/clf_pipeline_data_cleaning_feat_eng.pkl')
